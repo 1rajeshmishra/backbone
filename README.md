@@ -19,11 +19,11 @@ The example runs against this server which exposes the API shown below
 
 Used for populating our users collection
 
-**GET** /users - _Returns an array of user objects e.g. `[{firstname: 'Thomas', lastname: 'Davis', age: 12}]`_
+**GET** /users - _Returns an array of user objects e.g. `[{firstname: 'Rajesh', lastname: 'Mishra', age: 24}]`_
 
 Used for populating our user model
 
-**GET** /users/:id - _Returns a single user object e.g. `{id: 'xxxx', firstname: 'Thomas', lastname: 'Davis', age: 12}`
+**GET** /users/:id - _Returns a single user object e.g. `{id: 'xxxx', firstname: 'Rajesh', lastname: 'Mishra', age: 24}`
 
 **POST** /users - _Creates a user based off the payload and returns the new user object e.g. `{id: 'xxxx', firstname: 'Thomas', lastname: 'Davis', age: 12}`_
 
