@@ -25,7 +25,7 @@ Used for populating our user model
 
 **GET** /users/:id - _Returns a single user object e.g. `{id: 'xxxx', firstname: 'Rajesh', lastname: 'Mishra', age: 24}`
 
-**POST** /users - _Creates a user based off the payload and returns the new user object e.g. `{id: 'xxxx', firstname: 'Thomas', lastname: 'Davis', age: 12}`_
+**POST** /users - _Creates a user based off the payload and returns the new user object e.g. `{id: 'xxxx', firstname: 'Rajesh', lastname: 'Mishra', age: 12}`_
 
 **PUT** /users/:id - _Updates the given user with the given payload and returns the newly updated user object_
 
